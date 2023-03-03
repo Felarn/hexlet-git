@@ -1,2 +1,1 @@
-Hello, Hexlet! How are you?
-experiment with amend
+Репозиторий для практики отработки у рококов
