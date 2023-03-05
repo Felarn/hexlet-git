@@ -12,3 +12,4 @@ jobs:
         run: ls -la
       - name: run test
         run: node tests/capitalize.text.js
+      - run: make hello
