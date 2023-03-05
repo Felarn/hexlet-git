@@ -13,3 +13,5 @@ jobs:
       - name: run test
         run: node tests/capitalize.text.js
       - run: make hello
+      - run: echo "Имя текущего воркфлоу – $GITHUB_WORKFLOW"
+      
