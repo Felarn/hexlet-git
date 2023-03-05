@@ -6,6 +6,7 @@ jobs:
     steps:
       - name: greet
       - run: echo "Hello World!"
-      - name: check_files
+      - name: copy_files
       - uses: actions/checkout@v3
+      - name: check_files
       - run: ls -la
