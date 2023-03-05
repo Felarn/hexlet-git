@@ -6,5 +6,6 @@ jobs:
     steps:
       - name: greet
         run: echo "Hello World!"
-      - name: my-step
-        run: node tests/capitalize.text.js
+      - name: check_files
+        - uses: actions/checkout@v3
+        - run: ls -la
