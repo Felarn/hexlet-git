@@ -5,7 +5,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: greet
-        run: echo "Hello World!"
+      - run: echo "Hello World!"
       - name: check_files
-        - uses: actions/checkout@v3
-        - run: ls -la
+      - uses: actions/checkout@v3
+      - run: ls -la
