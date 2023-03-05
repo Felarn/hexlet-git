@@ -4,6 +4,7 @@ jobs:
   my-job:
     runs-on: ubuntu-latest
     steps:
-      - name: my-step
+      - name: greet
         run: echo "Hello World!"
+      - name: my-step
         run: node tests/capitalize.text.js
